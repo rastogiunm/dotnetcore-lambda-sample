@@ -9,7 +9,7 @@ namespace MyNamespace
     {
     	public object MyFunction()
     	{
-    		return new { message = "Hello from Lambda - now using dotnet lambda CLI!", automated_build = true, time = DateTime.UtcNow };
+    		return new { message = "Hello from Lambda - now using dotnet lambda CLI! and codebuild", automated_build = true, time = DateTime.UtcNow };
     	}
     }
 }
